@@ -1,0 +1,40 @@
+.productContainer {
+    width: 80%;
+}
+
+.product {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+.image {
+    display: flex;
+    width: 80%;
+    height: 250px;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid black;
+    position: relative;
+    right: 1px;
+    margin-bottom: 20px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 5px;
+    width: 250px;
+    height: 150px;
+  }
+
+.title {
+    margin-left: 10px;
+}
+
+.text {
+    margin-left: 10px;
+}
